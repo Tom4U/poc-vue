@@ -14,7 +14,7 @@
         </label>
         <div class="form-control px-4 my-5">
             <input class="btn btn-sm btn-primary" type="submit"
-                v-bind:value="currentTask.id > 0 ? 'Aktualisieren' : 'Hinzufügen'" :disabled="!activateSubmit">
+                :value="currentTask.id > 0 ? 'Aktualisieren' : 'Hinzufügen'" :disabled="!activateSubmit">
         </div>
     </form>
 </template>
